@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Details</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h2>New Customer Details</h2>
+        <div class="input-field">
+          <input
+            type="text"
+            id="customerName"
+            name="customerName"
+            required=""
+            autofocus
+          />
+          <label for=""> Please enter the customer name</label>
+          <span></span>
+        </div>
+        <div class="input-field">
+          <input
+            type="text"
+            id="customerAddress"
+            name="customerAddress"
+            required=""
+          />
+          <label for=""> Please enter the customer address</label>
+          <span></span>
+        </div>
+        <div class="input-field">
+          <input
+            type="text"
+            id="customerPhone"
+            name="customerPhone"
+            required=""
+          />
+          <label for=""> Please enter the customer phone number</label>
+          <span></span>
+        </div>
+
+        <div class="input-field">
+          <input
+            type="text"
+            id="gstNumber"
+            name="gstNumber"
+            maxlength="16"
+            required
+          />
+          <label for=""> Please enter the GST number</label>
+          <span></span>
+        </div>
+        <div class="input-field">
+          <input
+            type="number"
+            id="creditbalance"
+            name="creditbalance"
+            min="0"
+            required
+          />
+          <label for=""> Please enter the credit balance</label>
+          <span></span>
+        </div>
+
+        <button class="btn">Add Customer</button>
+        <input type="Submit" value="Reset" reset class="resetbtn" />
+      </form>
+    </div>
+  </body>
+</html>
